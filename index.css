@@ -1,7 +1,4 @@
-@font-face {
-    font-family: Silkscreen;
-    src: url(fonts/Silkscreen-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 body {
     background-color: black;
@@ -18,5 +15,6 @@ h1 {
 
 .header h1 {
     color: blue;
-    font-family: Silkscreen;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 25px;
 }
