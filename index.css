@@ -5,10 +5,18 @@
 
 body {
     background-color: black;
+    color:white
 }
 
 h1 {
+    color: white;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
     color: blue;
     font-family: Silkscreen;
-    text-align: center;
 }
