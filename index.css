@@ -55,3 +55,55 @@ h1 {
     color: goldenrod;
 }
 
+body p {
+    font-size: 20px;
+}
+
+.games {
+    display: flex;
+}
+.games_collumn_l {
+    flex: 50%;
+    background-color: rgba(5, 17, 190, 0.5);
+    color: gold;
+    margin: 20px;
+    padding-block: 300px;
+    text-align: center;
+    border-radius: 25px;
+
+    
+}
+
+
+
+.games_collumn_l h1 {
+    font-size: 75px;
+    color: gold;
+    font-family: 'Press Start 2P', sans-serif;
+
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+
+    position: relative;
+    top: -270px;
+}
+
+.games_collumn_r {
+    flex: 50%;
+    background-color: rgba(5, 17, 190, 0.5);
+    color: gold;
+    margin: 20px;
+    padding-block: 200px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+
+
+.games_collumn_r img {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
