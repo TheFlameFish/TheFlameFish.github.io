@@ -2,6 +2,9 @@
 
 *{
     margin: 0;
+
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -67,11 +70,10 @@ body p {
     background-color: rgba(5, 17, 190, 0.5);
     color: gold;
     margin: 20px;
-    padding-block: 300px;
+    padding-block: 200px;
     text-align: center;
     border-radius: 25px;
-
-    
+    margin-top: 50px;
 }
 
 
@@ -86,8 +88,9 @@ body p {
     text-align: center;
 
     position: relative;
-    top: -270px;
+    top: -25%;
 }
+
 
 .games_collumn_r {
     flex: 50%;
@@ -97,13 +100,21 @@ body p {
     padding-block: 200px;
     text-align: center;
     border-radius: 25px;
+    margin-top: 50px;
+}
+
+.games_collumn_r h1 {
+    font-size: 75px;
+    color: gold;
+    font-family: 'Press Start 2P', sans-serif;
+
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+
+    position: relative;
+    top: -25%;
 }
 
 
 
-
-.games_collumn_r img {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
