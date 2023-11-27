@@ -65,7 +65,7 @@ body p {
 .games {
     display: flex;
 }
-.games_collumn_l {
+.games_column_l {
     flex: 50%;
     background-color: rgba(5, 17, 190, 0.5);
     color: gold;
@@ -78,7 +78,7 @@ body p {
 
 
 
-.games_collumn_l h1 {
+.games_column_l h1 {
     font-size: 75px;
     color: gold;
     font-family: 'Press Start 2P', sans-serif;
@@ -92,7 +92,7 @@ body p {
 }
 
 
-.games_collumn_r {
+.games_column_r {
     flex: 50%;
     background-color: rgba(5, 17, 190, 0.5);
     color: gold;
@@ -103,7 +103,7 @@ body p {
     margin-top: 50px;
 }
 
-.games_collumn_r h1 {
+.games_column_r h1 {
     font-size: 75px;
     color: gold;
     font-family: 'Press Start 2P', sans-serif;
