@@ -62,6 +62,37 @@ body p {
     font-size: 20px;
 }
 
+.mini_bio {
+    background-color: rgba(5, 17, 190, 0.5);
+    color: gold;
+    margin: 20px;
+    padding-block: 100px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.mini_bio h1 {
+    font-size: 50px;
+    color: gold;
+    font-family: 'Press Start 2P', sans-serif;
+
+    display: inline;
+    vertical-align: top;
+    text-align: center;
+
+    position: relative;
+    top: -25%;
+}
+
+.mini_bio p {
+    font-size: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    margin: 100px;
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+
 .games {
     display: flex;
 }
