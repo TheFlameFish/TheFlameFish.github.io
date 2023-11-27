@@ -26,6 +26,9 @@ h1 {
     background-color: navy;
     padding-bottom: 0px;
     padding-top: 20px;
+    position: sticky;
+    top:0;
+    z-index: 999;
 }
 
 .header h1 {
@@ -69,7 +72,6 @@ body p {
     padding-block: 100px;
     text-align: center;
     border-radius: 25px;
-    margin-top: 50px;
 }
 
 .mini_bio h1 {
@@ -104,7 +106,6 @@ body p {
     padding-block: 200px;
     text-align: center;
     border-radius: 25px;
-    margin-top: 50px;
 }
 
 
@@ -131,7 +132,6 @@ body p {
     padding-block: 200px;
     text-align: center;
     border-radius: 25px;
-    margin-top: 50px;
 }
 
 .games_column_r h1 {
