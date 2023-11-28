@@ -149,7 +149,7 @@ body p {
 }
 
 
-.games_column_r {
+.column_r {
     flex: 50%;
     background-color: rgba(5, 17, 190, 0.5);
     color: gold;
@@ -159,7 +159,7 @@ body p {
     border-radius: 25px;
 }
 
-.games_column_r h1 {
+.column_r h1 {
     font-size: 75px;
     color: gold;
     font-family: 'Press Start 2P', sans-serif;
