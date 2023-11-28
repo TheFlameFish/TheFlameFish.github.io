@@ -30,9 +30,37 @@ h1 {
     background-color: navy;
     padding-bottom: 0px;
     padding-top: 20px;
+}
+
+.nav {
+    text-align: center;
+    align-self: center;
+    background-color: royalblue;
+    padding: 10px;
+    padding-bottom: 0px;
     position: sticky;
     top:0;
     z-index: 999;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.nav h1 {
+    margin-top: 50px;
+}
+
+.nav hr{
+    border-color: blue;
+    border-width: 2px;
+    margin: 20px -10000px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    vertical-align: bottom;
+}
+
+.nav a {
+    color: goldenrod;
+    text-decoration: none;
 }
 
 .header h1 {
@@ -55,15 +83,7 @@ h1 {
     margin: 0;
 }
 
-.nav {
-    background-color: royalblue;
-    padding: 10px;
-    font-family: 'Press Start 2P', sans-serif;
-}
 
-.nav a {
-    color: goldenrod;
-}
 
 body p {
     font-size: 20px;
