@@ -12,12 +12,15 @@ body {
     color:white;
     overflow-x: hidden;
     background-image: url(assets/images/purple-circuit-bg-blurred.jpg);
-    background-position-y: 100px;
+    /* background-position-y: 100px; */
     background-size:cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 
 .content {
     margin-top: 30px;
+    min-height: 100vh;
 }
 
 h1 {
@@ -90,9 +93,9 @@ body p {
 }
 
 .mini_bio {
-    background-color: rgba(5, 17, 190, 0.5);
+    background-color: rgba(53, 76, 255, 0.5);
     color: gold;
-    margin: 20px;
+    margin: 5%;
     margin-top: 0;
     padding-block: 100px;
     text-align: center;
@@ -120,57 +123,107 @@ body p {
     margin-bottom: auto;
 }
 
-.games {
-    display: flex;
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 5%;
+    margin: 5%;
+    align-self: center;
+    
+    
 }
-.games_column_l {
-    flex: 50%;
-    background-color: rgba(5, 17, 190, 0.5);
-    color: gold;
-    margin: 20px;
-    padding-block: 200px;
+
+.game_container {
+    background-color: rgba(53, 76, 255, 0);
+    place-items: center;
+    display: grid;
+    border-radius: 50%;
+    padding: 0 !important;
+    height: 100% !important;
+}
+
+.container > div {
+    background-color: rgba(53, 76, 255, 0.5);
+    place-items: center;
+    display: grid;
+    border-radius: 5%;
+}
+
+.container  > div::before {
+    content: "";
+    padding-top: 50%;
+    padding-bottom: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
+    display: block;
+    grid-area: 1 / 1 / 2 / 2;
+    /* background-color: red; */
+}
+
+.game {
+    grid-area: 1 / 1 / 2 / 2;
+    align-items:center;
     text-align: center;
-    border-radius: 25px;
+    /* display: flex !important; */
+    width: 100%;
+    /* overflow: hidden; */
+    padding: 5%;
 }
 
+.game > p {
+    clear: both;
+    font-size: 100%;
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    
+}
 
+.game > p > a {
+    color: lightblue;
+}
 
-.games_column_l h1 {
-    font-size: 75px;
+.container > div > div {
+    grid-area: 1 / 1 / 2 / 2;
+    align-items:center;
+    text-align: center;
+}
+
+.container > div > div > img {
+   align-self: center;
+   display: inline-block;
+   image-rendering: pixelated;
+   resize: both;
+}
+
+.container > div > div > a > img {
+    align-self: center;
+    display: inline-block;
+    image-rendering: pixelated;
+    resize: both;
+ }
+
+.game_logo {
+    align-self: center;
+    display: inline-block;
+    image-rendering: pixelated;
+    resize: both;
+    border-radius: 5%;
+    padding: 0;
+    flex-shrink: 0 !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    object-fit: cover !important;
+    width: auto !important;
+    height: auto !important;
+ }
+
+.container h1 {
+    font-size: 200%;
     color: gold;
     font-family: 'Press Start 2P', sans-serif;
-
-    display: inline;
-    vertical-align: top;
     text-align: center;
-
-    position: relative;
-    top: -25%;
+    margin-top: 10%;
 }
-
-
-.column_r {
-    flex: 50%;
-    background-color: rgba(5, 17, 190, 0.5);
-    color: gold;
-    margin: 20px;
-    padding-block: 200px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.column_r h1 {
-    font-size: 75px;
-    color: gold;
-    font-family: 'Press Start 2P', sans-serif;
-
-    display: inline;
-    vertical-align: top;
-    text-align: center;
-
-    position: relative;
-    top: -25%;
-}
-
-
 
