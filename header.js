@@ -9,7 +9,9 @@ header.innerHTML = `
     </div>
 
     <div class="nav">
-        <h2><a href="index.html">HOME</a></h2>
+        <nobr>
+        <h2><a href="index.html">HOME </a><a href="games.html"> GAMES</a></h2>
+        </nobr>
         <hr>
     </div>
 `;
